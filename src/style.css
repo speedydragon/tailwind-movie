@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+
+.header {
+    height: auto;
+  }
+  
+  .header nav {
+    background: rgba(0, 0, 0, 0.2);
+  }
+  
+  .video-cta {
+    height: auto;
+  }
+  
+  @media (min-width: 1024px) {
+    .header {
+      height: 762px;
+    }
+  
+    .video-cta {
+      height: 582px;
+    }
+  }
+  
+  .btn-primary {
+    @apply bg-brand text-white px-10 py-3 my-2 inline-block;
+  }
+  
+  .btn-primary:hover {
+    @apply bg-black transition ease-out duration-500;
+  }
+
+  
+
+@tailwind utilities;
+
+/* bg-transparent hover:bg-yellow-600 text-yellow-600 font-semibold hover:text-white p-4 border border-yellow-600 hover:border-transparent rounded inline-block mt-5 cursor-pointer transition ease-out duration-500 */
